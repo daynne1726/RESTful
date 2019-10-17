@@ -9,17 +9,29 @@ app.use(bodyParser.json());
 //database sample
 const users = [
     {
-        name: 'Keenan',
+        name: 'Daine Consunji',
         id: 1
     },
     {
-        name: 'Paul',
+        name: 'Trebuy Lacsiram',
         id: 2
     },
     {
-        name: 'Mendiola',
+        name: 'Ayane Yhubi Montreal',
         id: 3
-    }
+    },
+    {
+        name: 'Rozen Azrael Montreal',
+        id: 4
+    },
+    {
+        name: 'Krystal Caballero',
+        id: 5
+    },
+    {
+        name: 'Alexander Joaquin Montreal',
+        id: 6
+    },
 ];
 
 app.get('/', (request, response) => {
